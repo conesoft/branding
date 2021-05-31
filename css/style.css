@@ -1,7 +1,11 @@
 @media (prefers-color-scheme: dark) {
   html {
-    background-color: black;
+    background-color: #222;
     color: white;
+  }
+  body {
+    background-color: #000;
+    box-shadow: 0 0 1rem #000, 0 0 5rem #000;
   }
   a {
     color: deepskyblue;
@@ -9,12 +13,49 @@
   img[src*=Dark] {
     background-color: white;
   }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url("https://conesoft.github.io/branding/Conesoft.Light.png");
+    background-size: 40rem;
+    background-position: calc(100% + 13rem) calc(100% + 7rem);
+    background-repeat: no-repeat;
+    filter: blur(0.5rem);
+    opacity: 0.1;
+  }
 }
 
 @media (prefers-color-scheme: light) {
-  
+  html {
+    background-color: #EEE;
+    color: black;
+  }
+  body {
+    background-color: #FFF;
+    box-shadow: 0 0 5rem #777;
+  }
   img[src*=Light] {
     background-color: black;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url("https://conesoft.github.io/branding/Conesoft.Dark.png");
+    background-size: 40rem;
+    background-position: calc(100% + 13rem) calc(100% + 7rem);
+    background-repeat: no-repeat;
+    filter: blur(0.5rem);
+    opacity: 0.1;
   }
 }
 
@@ -24,6 +65,7 @@
   margin: 0;
   padding: 0;
   font-weight: inherit;
+  box-sizing: border-box;
 }
 p, a, img {
   display: inline;
@@ -42,9 +84,9 @@ html {
 body {
   max-width: min(50%, 80rem);
   justify-content: center;
-  background-color: #FFFFFF12;
   min-height: 100%;
   padding: 0 1rem;
+  position: relative;
 }
 
 h1 {
