@@ -32,7 +32,7 @@ head, script, style {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: monospace;
   align-items: center;
   min-height: 100%;
   height: 100%;
