@@ -34,17 +34,21 @@ head, script, style {
 html {
   font-family: sans-serif;
   align-items: center;
+  margin-top: 5rem;
 }
 body {
   max-width: min(50%, 100rem);
 }
 
 h1 {
-  line-height: 3rem;
+  line-height: 4rem;
+  font-size: 3rem;
 }
 h2 {
   line-height: 3rem;
+  font-size: 2rem;
 }
 p {
   line-height: 1rem;
+  font-size: 1rem;
 }
