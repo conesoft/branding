@@ -3,8 +3,48 @@
     background-color: black;
     color: white;
   }
+  a {
+    color: deepskyblue
+  }
+  img[src*=Dark] {
+    background-color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  
+  img[src*=Light] {
+    background-color: black;
+  }
+}
+
+* {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+p, a, img {
+  display: inline;
+}
+head, script, style {
+  display: none;
 }
 
 html {
   font-family: sans-serif;
+  align-items: center;
+}
+body {
+  max-width: min(50%, 100rem);
+}
+
+h1 {
+  line-height: 3rem;
+}
+h2 {
+  line-height: 3rem;
+}
+p {
+  line-height: 1rem;
 }
