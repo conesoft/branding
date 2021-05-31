@@ -1,6 +1,5 @@
-# branding
-repository for the icons used by Conesoft
-
+# conesoft branding
+repository for the iconography used by products made by [Conesoft.net](https://conesoft.net)
 
 ## the cone
 <p>
