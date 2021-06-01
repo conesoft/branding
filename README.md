@@ -9,7 +9,7 @@ repository for the iconography used by products made by [Conesoft.net](https://c
 
 Original by [Vecteezy.com](https://vecteezy.com), Free License (check [Vecteezy License](Source/Vecteezy-License-Information.pdf))
 
-## the server
+## the soft
 <p>
   <img src=Server.Light.png width=25%>
   <img src=Server.Dark.png width=25%>
