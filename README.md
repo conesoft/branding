@@ -2,17 +2,13 @@
 repository for the iconography used by products made by [Conesoft.net](https://conesoft.net)
 
 ## the cone
-<p>
-  <img src=Conesoft.Light.png width=25%>
-  <img src=Conesoft.Dark.png width=25%>
-</p>
+![Conesoft (Light)](Conesoft.Light.x256.png)
+![Conesoft (Dark)](Conesoft.Dark.x256.png)
 
 Original by [Vecteezy.com](https://vecteezy.com), Free License (check [Vecteezy License](Source/Vecteezy-License-Information.pdf))
 
 ## the soft
-<p>
-  <img src=Server.Light.png width=25%>
-  <img src=Server.Dark.png width=25%>
-</p>
+![Server (Light)](Server.Light.x256.png)
+![Server (Dark)](Server.Dark.x256.png)
 
 Original by [svgrepo.com](https://svgrepo.com)
