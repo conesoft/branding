@@ -27,6 +27,7 @@
     background-repeat: no-repeat;
     filter: blur(0.5rem);
     opacity: 0.1;
+    pointer-events: none;
   }
 }
 
@@ -56,6 +57,7 @@
     background-repeat: no-repeat;
     filter: blur(0.5rem);
     opacity: 0.1;
+    pointer-events: none;
   }
 }
 
@@ -112,4 +114,10 @@ h2 + p { /* crappy image detection */
 img {
   flex: 1;
   max-width: 33%;
+}
+
+footer {
+  position: absolute;
+  right: 2rem;
+  bottom: 0.5rem;
 }
