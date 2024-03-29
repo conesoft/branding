@@ -1,0 +1,124 @@
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #222;
+    color: white;
+  }
+  body {
+    background-color: #000;
+    box-shadow: 0 0 1rem #000, 0 0 5rem #000;
+  }
+  a {
+    color: deepskyblue;
+  }
+  img[src*=Dark] {
+    background-color: white;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url("https://conesoft.github.io/branding/Conesoft.Light.png");
+    background-size: 40rem;
+    background-position: calc(100% + 13rem) calc(100% + 7rem);
+    background-repeat: no-repeat;
+    filter: blur(0.5rem);
+    opacity: 0.1;
+    pointer-events: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    background-color: #EEE;
+    color: black;
+  }
+  body {
+    background-color: #FFF;
+    box-shadow: 0 0 5rem #777;
+  }
+  img[src*=Light] {
+    background-color: black;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url("https://conesoft.github.io/branding/Conesoft.Dark.png");
+    background-size: 40rem;
+    background-position: calc(100% + 13rem) calc(100% + 7rem);
+    background-repeat: no-repeat;
+    filter: blur(0.5rem);
+    opacity: 0.1;
+    pointer-events: none;
+  }
+}
+
+* {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  box-sizing: border-box;
+}
+p, a, img {
+  display: inline;
+}
+head, script, style {
+  display: none;
+}
+
+html {
+  font-family: monospace;
+  align-items: center;
+  min-height: 100%;
+  height: 100%;
+  font-weight: 100;
+}
+body {
+  max-width: min(50%, 40rem);
+  justify-content: center;
+  min-height: 100%;
+  padding: 0 1rem;
+  position: relative;
+}
+
+h1 {
+  line-height: 7rem;
+  font-size: 4rem;
+}
+h2 {
+  line-height: 7rem;
+  font-size: 3rem;
+}
+p {
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+h2 + p { /* crappy image detection */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+img {
+  flex: 1;
+  max-width: 33%;
+  margin-bottom: 1rem;
+}
+
+footer {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.5rem;
+}
