@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <clipPath id="clipPath18" clipPathUnits="userSpaceOnUse">
-      <path style="clip-rule:evenodd" id="path16" d="M 1.7742e-5,0 H 1190.64 V 841.92 H 1.7742e-5 Z"/>
-    </clipPath>
-  </defs>
-  <g transform="matrix(0.749635, 0, 0, -0.749635, -54.914017, 577.099487)" id="g10" style="">
-    <g id="g12">
-      <g clip-path="url(#clipPath18)" id="g14"/>
-    </g>
-    <path id="path20" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" d="M 377.47,750.37 V 339.4 l 58.48,410.97 z"/>
-    <path id="path22" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 333.85,281.97 c -101.87,0 -184.45,69.08 -184.45,154.29 0,85.22 82.58,154.3 184.45,154.3 -101.87,-65.89 -120.6,-188.38 -41.83,-273.6 12.11,-13.1 26.17,-24.86 41.83,-34.99 z"/>
-    <path id="path24" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" d="M 436.03,122.32 V 533.29 L 377.55,122.32 Z"/>
-    <path id="path26" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 479.65,590.72 c 101.87,0 184.45,-69.08 184.45,-154.3 0,-85.21 -82.58,-154.29 -184.45,-154.29 101.87,65.89 120.6,188.38 41.83,273.6 -12.11,13.1 -26.17,24.86 -41.83,34.99 z"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+	<style>*{color-scheme:light dark;fill:light-dark(#000,#fff)}</style>
+	<path d="M228.05 14.596v308.077l43.84-308.077zm-32.698 351.129c-76.366 0-138.27-51.785-138.27-115.661 0-63.884 61.904-115.669 138.27-115.669-76.366 49.393-90.406 141.216-31.358 205.1 9.078 9.82 19.618 18.636 31.358 26.23zm76.598 119.679V177.327l-43.84 308.077Zm32.698-351.129c76.366 0 138.27 51.785 138.27 115.669 0 63.876-61.904 115.661-138.27 115.661 76.366-49.393 90.406-141.216 31.358-205.1-9.078-9.82-19.618-18.636-31.358-26.23z"/>
 </svg>
